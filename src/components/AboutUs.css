@@ -1,0 +1,13 @@
+.aboutus {
+
+}
+
+.aboutus_img {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 70%;
+}
+.aboutus_img img {
+  width: 80%;
+}

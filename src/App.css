@@ -1,38 +1,178 @@
 .App {
   text-align: center;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* header */
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 1px;
+  background-color: white;
+  z-index: 9;
 }
+/* 
+.whitemenu {
+  background-color: white;
+  width: 100%; 
+  height: 75px;
+  z-index: 1;
+  box-shadow: 0px 1px 10px 1px grey;
+  display: none;
+}
+.hamburger_menu {
+  position: fixed;
+  margin-top: 75px;
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  display: none;
+  z-index: 9;
+}
+.show {
+  display: block;
+}
+.hamburger_menulist {
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  margin: 1.5rem;
+}
+.hamburger_menulist:hover {
+  color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+.hamburger_button {
+  position: fixed;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 0.5px solid rgb(199, 198, 198);
+  border-radius: 3px;
+  z-index: 2;
+  display: none;
+}
+.hamburger_button:hover {
+  background-color: rgb(206, 206, 206);
+  cursor: pointer;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.menu {
+  width: 90%;
+  max-width: 1140px;
+  color: black;
+  height: 70px;
   display: flex;
-  flex-direction: column;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 1px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.menu_1 {
+  width: 200px;
+  flex-grow: 1;
+  font-size: 1.8rem;
+  margin: 0 40px 0 20px;
+  z-index: 2;
+}
+.maintitle {
+  width: fit-content;
+  z-index: 2;
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+.maintitle:hover {
+  color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+.menu_3 {
+  display: flex;
+  justify-content: right;
+}
+
+.menu .menulist {
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.menu .menulist:hover {
+  color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+
+
+/* main_img */
+.main_img {
+  padding: 1px;
+  width: 100%;
+}
+.main_img img {
+  padding: 1px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+
+
+/* notice name common */
+.notice_name {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 40px auto 0;
+  width: 280px;
+  height: 80px;
+}
+.notice_name .box1 {
+  position: absolute;
+  left: 0;
+}
+.notice_name .box1 span {
+  font-size: 45px;
+}
+.notice_name .box2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-weight: 600;
+  font-size: 35px
+}
+
+/* ProductPrice */
+.ProductPrice {
+  padding: 1px;
+  height: 200px;
+  background-color: rgb(1, 13, 72);
+}
+.ProductPrice .notice_name {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.ProductPrice_notice {
+  color: white;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* LocationMap */
+.LocationMap {
+  padding: 1px;
+  background-color: rgb(234, 234, 234);
+}
+
+
+/* AboutUs */
+.AboutUs {
+  
+}
+.AboutUs .notice_name {
+  width: 310px;
 }
