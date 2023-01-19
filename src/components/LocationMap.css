@@ -125,3 +125,36 @@
 
   }
 }
+
+@media screen and (max-width : 600px){
+  .locationmap {
+    width: 100%;
+  }
+  .locationmap_box1 {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+  }
+  .locationmap_box2 {
+    margin: 0;
+    width: 90%;
+  }
+  .content_left {
+    width: 430px;
+  }
+  .content_right {
+    width: 430px;
+  }
+
+  .locationmap_map_content_image {
+    width: 350px;
+  }
+  .locationmap_map_button_wrap {
+    justify-content: center;
+  }
+  .locationmap_map_notice_wrap {
+    margin-left: 30px;
+  }
+}

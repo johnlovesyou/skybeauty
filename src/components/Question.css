@@ -68,3 +68,10 @@
     flex-wrap: wrap;
   }
 }
+
+@media screen and (max-width : 600px){
+  .qustion_contact_wrap {
+    width: 300px;
+    flex-wrap: wrap;
+  }
+}

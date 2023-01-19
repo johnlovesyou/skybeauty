@@ -42,3 +42,15 @@
 .store_img img:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width : 600px){
+  .store_notice_text {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+  }
+  .store_img {
+    width: 80%;
+  }
+}

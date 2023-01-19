@@ -23,30 +23,30 @@ function App() {
             <div className="menulist" onClick={()=>{
             let location_Aboutme = $('#ProductPrice').offset().top - 80
             window.scroll({top: location_Aboutme, behavior:'smooth'});
-            }}>제품가격</div>
+            }}>제품</div>
             <div className="menulist" onClick={()=>{
-            let location_Aboutme = $('#Qustion').offset().top - 120
+            let location_Aboutme = $('#Qustion').offset().top - 80
             window.scroll({top: location_Aboutme, behavior:'smooth'});
-            }}>문의방법</div>
+            }}>문의</div>
             <div className="menulist" onClick={()=>{
             let location_Aboutme = $('#LocationMap').offset().top - 80
             window.scroll({top: location_Aboutme, behavior:'smooth'});
-            }}>오시는길</div>
+            }}>위치</div>
             <div className="menulist" onClick={()=>{
-            let location_Aboutme = $('#AboutUs').offset().top - 80
+            let location_Aboutme = $('#AboutUs').offset().top - 120
             window.scroll({top: location_Aboutme, behavior:'smooth'});
             }}>About Us</div>
             <div className="menulist addlistwidth" onClick={()=>{
             let location_Aboutme = $('#Store').offset().top - 80
             window.scroll({top: location_Aboutme, behavior:'smooth'});
-            }}>스마트스토어</div>
+            }}>스토어</div>
           </div>
         </div>
       </header>
 
       {/* 메인화면 */}
       <div className='main_img_above'></div>
-      <div className='main_img'>
+      <div className='main_img1'>
         <img src='img/하늘뷰티문구2.png'></img>
       </div>
       <div className='main_img2'>

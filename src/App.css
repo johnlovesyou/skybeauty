@@ -63,14 +63,19 @@
 
 
 /* main_img */
-.main_img {
+.main_img1 {
   padding: 1px;
   width: 100%;
 }
-.main_img img {
+.main_img1 img {
   padding: 1px;
   width: 100%;
   margin-top: 80px;
+}
+.main_img2 {
+  padding: 1px;
+  width: 100%;
+  display: none;
 }
 .main_img2 img {
   padding: 1px;
@@ -155,7 +160,6 @@
 .footer {
   width: 100%;
   height: 300px;
-  background-color: red;
 }
 
 
@@ -170,25 +174,57 @@
 
 @media screen and (max-width : 600px){
   .header {
-    height: 120px;
+    height: 100px;
+  }
+  .menu_1 {
+    font-size: 1.4rem;
   }
   .menu {
     width: 90%;
     display: block;
   }
   .menu .menulist {
+    width: 120px;
     font-size: 14px;
     margin-top: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-  
   }
-  .main_img {
+  .main_img1 {
     display: none;
   }
-  
+  .main_img1 img {
+    display: none;
+  }
   .main_img2 {
+    padding: 1px;
+    width: 100%;
     display: block;
+  }
+  .main_img2 img {
+    padding: 1px;
+    width: 100%;
+    margin-top: 100px;
+    display: block;
+  }
+
+  .notice_name {
+    width: 220px;
+  }
+  .notice_name .box1 span {
+    font-size: 40px;
+  }
+  .notice_name .box2 {
+    font-size: 30px
+  }
+  .AboutUs .notice_name {
+    width: 240px;
+  }
+  .Store .notice_name {
+    width: 280px;
+  }
+  .ProductPrice_notice {
+    font-size: 16px;
   }
 }
