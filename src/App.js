@@ -3,6 +3,8 @@ import $ from "jquery";
 import AboutUs from './components/AboutUs';
 import Question from './components/Question';
 import LocationMap from './components/LocationMap';
+import Store from './components/Store';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -34,6 +36,10 @@ function App() {
             let location_Aboutme = $('#AboutUs').offset().top - 80
             window.scroll({top: location_Aboutme, behavior:'smooth'});
             }}>About Us</div>
+            <div className="menulist" onClick={()=>{
+            let location_Aboutme = $('#Store').offset().top - 80
+            window.scroll({top: location_Aboutme, behavior:'smooth'});
+            }}>스마트스토어</div>
           </div>
         </div>
       </header>
@@ -89,6 +95,25 @@ function App() {
           </div>
           <AboutUs></AboutUs>
         </div>        
+      </section>
+
+
+      {/* Store */}
+      <section className="Store" id='Store'>
+        <div className="inner">
+          <div className="notice_name">
+            <div className="box1"><span class="material-symbols-outlined">note</span></div>
+            <div className="box2">스마트스토어</div>
+          </div>
+          <Store></Store>
+        </div>        
+      </section>
+
+      {/* footer */}
+      <section className="footer">
+        <div className="inner">
+          <Footer></Footer>
+        </div>
       </section>
 
 

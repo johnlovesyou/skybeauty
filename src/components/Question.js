@@ -12,9 +12,11 @@ function Question(props) {
       <div className='qustion_box2'>
         <div className='qustion_contact_wrap'>
           <div className='qustion_contact'>
-            <div className='qustion_contact_image'>
-              <img src='img/how-to-contact-1.png'></img>
-            </div>
+            <a href='tel:010-4925-8855'>
+              <div className='qustion_contact_image'>
+                <img src='img/how-to-contact-1.png'></img>
+              </div>
+            </a>
             <div className='qustion_contact_name'>직접연락</div>
             <div className='qustion_contact_bar'></div>
             <div className='qustion_contact_notice'>
@@ -22,9 +24,11 @@ function Question(props) {
             </div>
           </div>
           <div className='qustion_contact'>
-            <div className='qustion_contact_image'>
-              <img src='img/how-to-contact-2.png'></img>
-            </div>
+            <a href='https://open.kakao.com/o/sO7wUHZe' target='_blank'>
+              <div className='qustion_contact_image'>
+                <img src='img/how-to-contact-2.png'></img>
+              </div>
+            </a>
             <div className='qustion_contact_name'>카카오톡</div>
             <div className='qustion_contact_bar'></div>
             <div className='qustion_contact_notice'>
@@ -32,9 +36,11 @@ function Question(props) {
             </div>
           </div>
           <div className='qustion_contact'>
-            <div className='qustion_contact_image'>
-              <img src='img/how-to-contact-3.png'></img>
-            </div>
+            <a href='https://www.instagram.com/skybeauty49258855/' target='_blank'>
+              <div className='qustion_contact_image'>
+                <img src='img/how-to-contact-3.png'></img>
+              </div>
+            </a>
             <div className='qustion_contact_name'>인스타 DM</div>
             <div className='qustion_contact_bar'></div>
             <div className='qustion_contact_notice'>
@@ -42,9 +48,11 @@ function Question(props) {
             </div>
           </div>
           <div className='qustion_contact'>
-            <div className='qustion_contact_image'>
-              <img src='img/how-to-contact-4.png'></img>
-            </div>
+            <a href='https://talk.naver.com/W4O3OL' target='_blank'>
+              <div className='qustion_contact_image'>
+                <img src='img/how-to-contact-4.png'></img>
+              </div>
+            </a>
             <div className='qustion_contact_name'>네이버 톡톡</div>
             <div className='qustion_contact_bar'></div>
             <div className='qustion_contact_notice'>

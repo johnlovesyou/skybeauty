@@ -10,6 +10,14 @@ function AboutUs(props) {
       </div>
 
 
+      <div className='aboutus_img'>
+        <img src='img/상세설명.jpg'></img>
+      </div>
+
+      <div className='aboutus_img'>
+        <img src='img/배송안내.jpg'></img>
+      </div>
+
     </div>
   );
 }

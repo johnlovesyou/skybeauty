@@ -1,0 +1,44 @@
+.store_main {
+  margin-bottom: 100px;
+}
+.store_notice_box {
+  width: 100%;
+  height: 150px;
+}
+.store_notice_content1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.store_notice_content1 a {
+  text-decoration: none;
+  color: blue;
+}
+.store_notice_content1 a:hover {
+  text-decoration: underline;
+}
+.store_notice_content2 {
+  width: 100%;
+}
+.store_notice_text {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.store_img {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 60%;
+}
+.store_img img {
+  width: 100%;
+}
+.store_img img:hover {
+  opacity: 0.8;
+}
