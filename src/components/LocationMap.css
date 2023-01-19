@@ -142,14 +142,16 @@
     width: 90%;
   }
   .content_left {
-    width: 430px;
+    width: 100%;
   }
   .content_right {
-    width: 430px;
+    width: 100%;
   }
-
+  .locationmap_map_button {
+    width: 150px;
+  }
   .locationmap_map_content_image {
-    width: 350px;
+    width: 90%;
   }
   .locationmap_map_button_wrap {
     justify-content: center;

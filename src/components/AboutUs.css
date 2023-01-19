@@ -11,3 +11,9 @@
 .aboutus_img img {
   width: 80%;
 }
+
+@media screen and (max-width : 600px){
+  .aboutus_img img {
+    width: 100%;
+  }
+}
