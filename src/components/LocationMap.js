@@ -13,7 +13,7 @@ function LocationMap(props) {
           <div className='locationmap_map_wrap'>
             <div className='locationmap_map_content content_left'>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.2906192044386!2d128.70941162924873!3d35.869534998759434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35660ba411d98f89%3A0x357276025a056693!2z64yA6rWs6rSR7Jet7IucIOuPmeq1rCDslYjsi6wzLjTrj5kgOTAtNQ!5e0!3m2!1sko!2skr!4v1674021822483!5m2!1sko!2skr"
-               width="580" height="400" 
+               className='locationmap_map_content_image' width="580" height="400" 
               //  style="border:0;" allowfullscreen="" loading="lazy" 
               //  referrerpolicy="no-referrer-when-downgrade"
                ></iframe>

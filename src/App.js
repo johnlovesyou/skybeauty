@@ -36,7 +36,7 @@ function App() {
             let location_Aboutme = $('#AboutUs').offset().top - 80
             window.scroll({top: location_Aboutme, behavior:'smooth'});
             }}>About Us</div>
-            <div className="menulist" onClick={()=>{
+            <div className="menulist addlistwidth" onClick={()=>{
             let location_Aboutme = $('#Store').offset().top - 80
             window.scroll({top: location_Aboutme, behavior:'smooth'});
             }}>스마트스토어</div>
@@ -48,6 +48,9 @@ function App() {
       <div className='main_img_above'></div>
       <div className='main_img'>
         <img src='img/하늘뷰티문구2.png'></img>
+      </div>
+      <div className='main_img2'>
+        <img src='img/하늘뷰티문구3.png'></img>
       </div>
 
       {/* 제품가격 */}

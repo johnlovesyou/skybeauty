@@ -1,6 +1,5 @@
 .qustion {
   width: 100%;
-  height: 450px;
 }
 .qustion_box1 {
   width: 100%;
@@ -12,14 +11,13 @@
 }
 .qustion_box2 {
   width: 100%;
-  height: 300px;
 }
 .qustion_contact_wrap {
   left: 0;
   right: 0;
   margin: auto;
-  width: 1000px;
-  height: 300px;
+  width: 70%;
+  max-width: 1000px;
   display: flex;  
 }
 .qustion_contact {
@@ -27,7 +25,6 @@
   right: 0;
   margin: 20px auto;
   width: 180px;
-  height: 320px;
 }
 .qustion_contact_image {
   width: 180px;
@@ -62,4 +59,12 @@
 .qustion_contact_notice span {
   font-weight: 700;
   color: rgb(1, 13, 72);
+}
+
+
+@media screen and (max-width : 1000px){
+  .qustion_contact_wrap {
+    width: 500px;
+    flex-wrap: wrap;
+  }
 }

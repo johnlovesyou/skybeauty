@@ -1,6 +1,5 @@
 .locationmap {
   width: 100%;
-  height: 520px;
 }
 .locationmap_box1 {
   width: 100%;
@@ -12,11 +11,10 @@
 }
 .locationmap_box2 {
   width: 100%;
-  height: 450px;
+  margin-bottom: 50px;
 }
 .locationmap_map_wrap {
   width: 1000px;
-  height: 400px;
   left: 0;
   right: 0;
   margin: auto;
@@ -27,7 +25,6 @@
   right: 0;
   margin: auto;
   width: 480px;
-  height: 400px;
 }
 .content_left {
   width: 580px;
@@ -102,4 +99,29 @@
   height: 50%;
   display: flex;
   justify-content: left;
+}
+
+@media screen and (max-width : 1000px){
+  .locationmap {
+    width: 90%;
+  }
+  .locationmap_box2 {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+  }
+  .locationmap_map_wrap {
+    display: block;
+    width: 100%;
+  }
+  .locationmap_map_content {
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .locationmap_map_content_image {
+
+  }
 }
