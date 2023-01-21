@@ -1,16 +1,16 @@
 .footer {
-  height: 150px;
+  width: 100%;
   background-color: rgb(62, 62, 62);
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .footer_box {
   left: 0;
   right: 0;
   margin: auto;
-  width: 600px;
-  height: 120px;
+  width: 100%;
   display: flex;
 }
 .footer_box_box1,
@@ -21,11 +21,10 @@
   height: 100px;
 }
 .footer_box_box1 {
-  width: 300px;
-  
+  width: 55%;
 }
 .footer_box_box2 {
-  width: 250px;
+  width: 45%;
 }
 .footer_notice {
   font-size: 14px;
@@ -78,18 +77,17 @@
 
 @media screen and (max-width : 600px){
   .footer_box {
-    height: 300px;
     display: block;
     background-color: rgb(62, 62, 62);
   }
   .footer_box {
-    height: 260px;
-
+ 
   } 
   .footer_box_box1,
   .footer_box_box2 {
     margin-top: 20px;
-    width: 300px;
+    width: 100%;
+    height: 120px;
   }
 
 }
