@@ -4,12 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .footer_box {
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 30px auto;
   width: 100%;
   display: flex;
 }
